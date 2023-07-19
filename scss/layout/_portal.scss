@@ -343,3 +343,140 @@
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .portal {
+    .pr__wrapper {
+      h1 {
+        color: var(--base-black, #140a32);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.6px;
+      }
+      &_item {
+        display: block;
+        margin: 0 auto;
+        &--left {
+          margin-bottom: 40px;
+          &-card {
+            width: 340px;
+            height: 106px;
+
+            img {
+              width: 50px;
+              height: 50px;
+            }
+            h3 {
+              color: var(--base-black, #140a32);
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+
+            .card__about {
+              color: var(--base-black, #140a32);
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+            .card__text {
+              color: var(--gray-medium, rgba(47, 43, 67, 0.5));
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+
+        &--right {
+          width: 340px;
+          height: 720px;
+          padding: 20px;
+          h1 {
+            margin-top: 62px;
+            color: var(--base-white, #fff);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+
+          .right-text {
+            color: var(--base-white, #fff);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.36px;
+          }
+
+          textarea {
+            width: 300px;
+            height: 180px;
+            padding: 12px;
+            font-size: 12px;
+          }
+
+          form {
+            display: block;
+
+            .form_card {
+              width: 300px;
+              height: 50px;
+              margin-bottom: 20px;
+            }
+
+            button {
+              width: 300px;
+              height: 53px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .online {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 92px;
+    height: 27px;
+    border-radius: 10px;
+    background: var(--base-white, #fff);
+    padding: 5px 12px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--base-black, #140a32);
+    span {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: $bg-light-green;
+    }
+  }
+
+  .right-h2 {
+    font-size: 16px;
+  }
+
+  .right-text {
+    font-size: 12px;
+  }
+
+  .portal .pr__wrapper .pr__wrapper_item--left .btn1 {
+    width: 340px;
+    padding: 15px 24px;
+    font-size: 14px;
+  }
+}

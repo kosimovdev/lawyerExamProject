@@ -118,3 +118,37 @@
     display: block;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .free {
+    margin-bottom: 300px;
+
+    .free__wrapper {
+      display: block;
+      background-image: none;
+      text-align: start;
+      padding: 0;
+
+      .fr_div {
+        form {
+          display: block;
+          .form_card {
+            width: 340px;
+            input {
+              width: 100%;
+            }
+          }
+
+          .fr_btn {
+            margin-top: 15px;
+            width: 340px;
+          }
+        }
+      }
+    }
+  }
+
+  .szs {
+    display: block;
+  }
+}
